@@ -29,22 +29,7 @@ discord.js is a powerful [node.js](https://nodejs.org) module that allows you to
 **Node.js 6.0.0 or newer is required.**  
 Ignore any warnings about unmet peer dependencies, as they're all optional.
 
-Without voice support: `npm install discord.js --save`  
-With voice support ([node-opus](https://www.npmjs.com/package/node-opus)): `npm install discord.js node-opus --save`  
-With voice support ([opusscript](https://www.npmjs.com/package/opusscript)): `npm install discord.js opusscript --save`
-
-### Audio engines
-The preferred audio engine is node-opus, as it performs significantly better than opusscript. When both are available, discord.js will automatically choose node-opus.
-Using opusscript is only recommended for development environments where node-opus is tough to get working.
-For production bots, using node-opus should be considered a necessity, especially if they're going to be running on multiple servers.
-
-### Optional packages
-- [bufferutil](https://www.npmjs.com/package/bufferutil) to greatly speed up the WebSocket when *not* using uws (`npm install bufferutil --save`)
-- [erlpack](https://github.com/hammerandchisel/erlpack) for significantly faster WebSocket data (de)serialisation (`npm install hammerandchisel/erlpack --save`)
-- One of the following packages can be installed for faster voice packet encryption and decryption:
-    - [sodium](https://www.npmjs.com/package/sodium) (`npm install sodium --save`)
-    - [libsodium.js](https://www.npmjs.com/package/libsodium-wrappers) (`npm install libsodium-wrappers --save`)
-- [uws](https://www.npmjs.com/package/uws) for a much faster WebSocket connection (`npm install uws --save`)
+Write code in Git-Bash / terminal: `npm install discord.js`  
 
 ## Example usage
 ```js
@@ -66,6 +51,11 @@ client.login('your token');
 
 ## My Discord_Bot Working
 "My Discord bot serves as a convenient tool for calculating Air Quality Index (AQI) values for cities specified by users. By simply entering the name of a city, users can receive comprehensive data on AQI levels, including information such as pollutant concentrations and health implications. Furthermore, the bot provides tailored health advice based on the AQI value, offering insights into how current air quality may impact well-being. This feature enhances user awareness of environmental conditions and promotes healthier lifestyle choices in response to varying air quality levels."
+
+# Working ScreenShot
+
+<img src = "https://github.com/dhruvsaboo1805/Discord_Bot/assets/104023753/25850212-6353-4c10-90ad-0df9f406595d"></img>
+
 ## Links
 * [Website](https://discord.js.org/) ([source](https://github.com/hydrabolt/discord.js-site))
 * [Documentation](https://discord.js.org/#/docs)
@@ -74,11 +64,6 @@ client.login('your token');
 * [GitHub](https://github.com/dhruvsaboo1805/Discord_Bot.git)
 * [NPM](https://www.npmjs.com/package/discord.js)
 * [Related libraries](https://discordapi.com/unofficial/libs.html) (see also [discord-rpc](https://www.npmjs.com/package/discord-rpc))
-
-## Contributing
-Before creating an issue, please ensure that it hasn't already been reported/suggested, and double-check the
-[documentation](https://discord.js.org/#/docs).  
-See [the contribution guide](https://github.com/hydrabolt/discord.js/blob/master/.github/CONTRIBUTING.md) if you'd like to submit a PR.
 
 ## Help
 If you don't understand something in the documentation, you are experiencing problems, or you just need a gentle
