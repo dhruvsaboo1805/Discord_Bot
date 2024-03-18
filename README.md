@@ -57,7 +57,6 @@ client.login('your token');
 <img src = "https://github.com/dhruvsaboo1805/Discord_Bot/assets/104023753/25850212-6353-4c10-90ad-0df9f406595d"></img>
 
 ## Links
-* [Website](https://discord.js.org/) ([source](https://github.com/hydrabolt/discord.js-site))
 * [Documentation](https://discord.js.org/#/docs)
 * [Discord.js server](https://discord.gg/bRCvFy9)
 * [Discord API server](https://discord.gg/rV4BwdK)
